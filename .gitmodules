@@ -1,0 +1,3 @@
+[submodule "terraform-scalr-local_new2"]
+	path = terraform-scalr-local_new2
+	url = https://github.com/RomanMytsko/submodules.git
