@@ -7,3 +7,6 @@
 [submodule "local_exec"]
 	path = local_exec
 	url = https://github.com/RomanMytsko/local_exec.git
+[submodule "modules-scalrprovider-temp"]
+	path = modules-scalrprovider-temp
+	url = https://github.com/RomanMytsko/modules-scalrprovider-temp.git
