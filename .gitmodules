@@ -4,3 +4,6 @@
 [submodule "terraform-scalr-local-new"]
 	path = terraform-scalr-local-new
 	url = https://github.com/RomanMytsko/submodules.git
+[submodule "local_exec"]
+	path = local_exec
+	url = https://github.com/RomanMytsko/local_exec.git
