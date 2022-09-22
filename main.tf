@@ -1,3 +1,3 @@
 module "rm" {
-  source  = "terraform-scalr-local"
+  source  = "github.com/hashicorp/terraform-provider-null"
 }
