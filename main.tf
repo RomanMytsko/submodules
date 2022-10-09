@@ -8,4 +8,7 @@ module "rm2" {
 	version = "1.0.0"
 }
 
-counts = 2
+variable "counts" {
+  type = int
+  default = 2
+}
