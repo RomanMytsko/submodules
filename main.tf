@@ -9,6 +9,5 @@ module "rm2" {
 }
 
 variable "counts" {
-  type = int
   default = 2
 }
