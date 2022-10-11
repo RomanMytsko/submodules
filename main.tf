@@ -1,3 +1,15 @@
+terraform {
+  required_providers {
+    null = {
+      source = "hashicorp/null"
+      version = "3.1.1"
+    }
+  }
+}
+
+provider "null" {
+  # Configuration options
+}
 module "rm" {
 	source  = "036a940647f4.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
 	version = "2.0.2"
