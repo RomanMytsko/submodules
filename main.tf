@@ -1,18 +1,18 @@
-required_providers {
-    azurerm = {
-        source  = "hashicorp/azurerm"
-        version = "~> 2.43"
-    }
-    null = {
-        version = "~> 3.0.0"
+terraform {
+  required_version = ">= 0.14.0"
+}
+
+resource "null_resource" "null_resource_simple" {
+    provisioner "local-exec" {
+        command = "echo Hello World"
     }
 }
 
-resource "null_resource" "name" {
-  name = "test"
-  provisioner "local-exec" {
-    command = "echo test2"
-  }
+# resource "null_resource" "name" {
+#   name = "test"
+#   provisioner "local-exec" {
+#     command = "echo test2"
+#   }
   
 }
 # module "rm" {
