@@ -1,11 +1,8 @@
-terraform {
-  required_version = ">= 0.14.0"
-}
-
-resource "null_resource" "null_resource_simple" {
-    provisioner "local-exec" {
-        command = "echo Hello World"
-    }
+resource "null_resource" "example2" {
+  provisioner "local-exec" {
+    command = "Get-Date > completed.txt"
+    interpreter = ["PowerShell", "-Command"]
+  }
 }
 
 # resource "null_resource" "name" {
