@@ -11,11 +11,11 @@ provider "null" {
   # Configuration options
 }
 
-resource "null_resource" "example2" {
-  provisioner "local-exec" {
-    command = "echo rm"
-  }
-}
+# resource "null_resource" "example2" {
+#   provisioner "local-exec" {
+#     command = "echo rm"
+#   }
+# }
 
 # resource "null_resource" "name" {
 #   name = "test"
