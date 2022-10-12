@@ -9,7 +9,7 @@
 
 # provider "null" {
   # Configuration options
-}
+# }
 
 # resource "null_resource" "example2" {
 #   provisioner "local-exec" {
