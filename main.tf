@@ -26,7 +26,7 @@ module "rm" {
 	version = "2.0.3"
 }
 
-module "rm" {
+# module "rm" {
 # 	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
 # 	version = "2.0.3"
 # }
