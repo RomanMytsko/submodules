@@ -22,9 +22,14 @@ provider "google" {
 }
 
 module "rm" {
-	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
+	source  = "13bcb3bc2462.test-env.scalr.com/acc-svrcncgh453bi8g/rm/local"
 	version = "2.0.3"
 }
+
+module "rm" {
+# 	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
+# 	version = "2.0.3"
+# }
 	
 # module "rm2" {
 # 	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
