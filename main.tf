@@ -23,7 +23,7 @@ provider "google" {
 
 module "rm" {
 	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
-	version = "2.0.3"
+	version = "2.0.2"
 }
 	
 # module "rm2" {
