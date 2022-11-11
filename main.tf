@@ -1,25 +1,25 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = ">=3.24.0"
-    }
+# terraform {
+#   required_providers {
+#     aws = {
+#       source  = "hashicorp/aws"
+#       version = ">=3.24.0"
+#     }
 
-    google = {
-      source  = "hashicorp/google"
-      version = ">=3.24.0"
-    }
-  }
+#     google = {
+#       source  = "hashicorp/google"
+#       version = ">=3.24.0"
+#     }
+#   }
 
-}
+# }
 
-provider "aws" {
-  region = "us-east-1"
-}
+# provider "aws" {
+#   region = "us-east-1"
+# }
 
-provider "google" {
-  region = "us-east1"
-}
+# provider "google" {
+#   region = "us-east1"
+# }
 
 # module "rm" {
 # 	source  = "13bcb3bc2462.test-env.scalr.com/acc-svrcncgh453bi8g/rm/local"
