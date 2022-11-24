@@ -14,7 +14,7 @@ terraform {
 }
 
 module "rm" {
-source = "git@github.com:RomanMytsko/submodules.git"
+source = "git@github.com:RomanMytsko/local-exec"
 }
 
 provider "aws" {
