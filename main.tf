@@ -13,9 +13,9 @@
 
 # }
 
-module "rm" {
-source = "git@github.com:RomanMytsko/local-exec"
-}
+# module "rm" {
+# source = "git@github.com:RomanMytsko/local-exec"
+# }
 
 # provider "aws" {
 #   region = "us-east-1"
@@ -30,10 +30,10 @@ source = "git@github.com:RomanMytsko/local-exec"
 # 	version = "2.0.2"
 # }
 
-# module "rm" {
-# 	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
-# 	version = "3.0.1"
-# }
+module "rm" {
+	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
+	version = "3.0.1"
+}
 	
 # module "rm2" {
 # 	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
