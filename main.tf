@@ -14,7 +14,7 @@ terraform {
 }
 
 module "rm" {
-source = "git::ssh://git@github.com/RomanMytsko/submodules"
+source = "git@github.com:RomanMytsko/submodules.git"
 }
 
 provider "aws" {
