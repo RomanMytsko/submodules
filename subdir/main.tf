@@ -1,4 +1,4 @@
 module "rm" {
-	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
-	version = "3.0.0"
+	source  = "mainiacp.org10.te.scalr-labs.net/acc-svrcncgh453bi8g/rm/local"
+	version = "5.0.8"
 }
