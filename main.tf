@@ -47,6 +47,6 @@ resource "null_resource" "resource1" {
 # 	version = "1.0.0"
 # }
 
-# module "instance" {
-#   source = "./subdir"
-# }
+module "instance" {
+  source = "./subdir"
+}
