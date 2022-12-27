@@ -35,12 +35,12 @@
 # 	version = "3.0.1"
 # }
 
-resource "null_resource" "resource1" {
-  count = 1
-  provisioner "local-exec" {
-    command = "pwd"
-  }
-}
+# resource "null_resource" "resource1" {
+#   count = 1
+#   provisioner "local-exec" {
+#     command = "pwd"
+#   }
+# }
 	
 # module "rm2" {
 # 	source  = "f6e71f23d20d.test-env.scalr.com/env-svrcnchebt61e30/rm/local"
