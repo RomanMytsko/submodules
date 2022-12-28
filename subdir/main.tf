@@ -7,3 +7,8 @@ module "rm" {
 # 	source  = "mainiacp.org10.te.scalr-labs.net/env-svrcnchebt61e30/rm2/local"
 # 	version = "1.0.3"
 # 	}
+	
+
+module "rm" {
+	source  = "././modules"
+}
