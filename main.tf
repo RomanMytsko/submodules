@@ -4,6 +4,6 @@ resource "null_resource" "example" {
   }
 
   provisioner "local-exec" {
-    command = "This is TF SUBMODULE"
+    command = "echo This is TF SUBMODULE"
   }
 }
